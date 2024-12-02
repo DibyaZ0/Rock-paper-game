@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p id="scores">
+        <span>Your score: <span id="user-score">0</span></span>
+        <span>Computer score: <span id="comp-score">0</span></span>
+    </p>
+    <h1>Stone Paper Scissor Game</h1>
+
+    <div class="btns">
+        <button id="rock">&#x1f44a</button>
+        <button id="paper">&#x1f590</button>
+        <button id="scissor">&#x270c</button>
+    </div>
+
+    <h1 id="result">Result...</h1>
+
+    <!--rules of the game-->
+    <div class="RULES">
+        <div class="game-rule">
+          <h1>Game Rules</h1>
+          <div class="list">
+            <div class="emoji">
+              <div class="div1">🟨</div>
+              <div>🟨</div>
+              <div>🟨</div>
+              <div>🟨</div>
+            </div>
+            <div class="all-rules">
+              <div>Rock beats scissors, scissors beat paper, and paper beats rock.</div>
+              <div>Agree ahead of time whether you'll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</div>
+              <div>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</div>
+              <div>If both players lay down the same hand, each player lays down another hand</div>
+            </div>
+          </div>
+        </div>
+        <div class="X">
+        <img class="close" src="./images/X.png" alt="X">
+      </div>
+      <button class="rulesbtn" id="btn">RULES</button>
+      <button class="nextbtn"  id="btn">NEXT</button>
+      </div>
+
+      <div class="win-page">
+        <div class="images">        
+          <div class="stars">
+            <div><img src="./images/Star 1.png" alt="stars" ></div>
+            <div><img src="./images/Star 2.png" alt="stars" ></div>
+            <div><img src="./images/Star 3.png" alt="stars" ></div>
+            <div><img src="./images/Star 4.png" alt="stars" ></div>
+            <div><img src="./images/Star 5.png" alt="stars" ></div>
+            <div><img src="./images/Star 6.png" alt="stars" ></div>
+            <div><img src="./images/Star 7.png" alt="stars" ></div>
+            <div><img src="./images/Star 9.png" alt="stars" ></div>
+          </div>  
+          <div class="victory">
+            <img src="./images/Vector.png" alt="victory" >
+          </div>  
+        </div> 
+        <h1>HURRAY!!</h1>
+        <h2>YOU WON THE GAME</h2>
+        <button onclick="resetGame()">PLAY AGAIN</button> 
+      </div> 
+
+
+    <script src="script.js"></script>
+</body>
+</html>
